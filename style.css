@@ -9,6 +9,15 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.bg-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* :root{
+  --grad:linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+} */
 /* header section style */
 
 /* nav side style */
@@ -143,11 +152,6 @@ nav button:hover {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .banner-btn {
   display: inline-flex;
@@ -160,7 +164,7 @@ nav button:hover {
   border-radius: 42px;
   background-color: #ff42a5;
   width: 80px;
-  height: 35px;
+  height: 40px;
 
   color: #fff;
   font-family: Work Sans;
@@ -218,14 +222,10 @@ nav button:hover {
 .gamer-title {
   text-align: right;
   font-family: Work Sans;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
-
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
+
 .gamer-description {
   width: 340px;
   color: #534c64;
@@ -245,11 +245,58 @@ nav button:hover {
 .purpose-p {
   font-size: 16px;
 }
-.unleash-h3{
+.unleash-h3 {
   color: #534c64;
   font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 45px;
+}
+
+/* videos section */
+.videos {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.videos-sec-title {
+  text-align: center;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 70px;
+}
+.video-sec-description {
+  color: #534c64;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 30px 180px;
+  gap: 10px;
+}
+.cards {
+  width: 210px;
+  /* position: absolute; */
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-description {
+  color: #312d3a;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  text-align: left;
 }
