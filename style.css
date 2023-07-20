@@ -151,6 +151,7 @@ nav button:hover {
   align-items: flex-start;
   gap: 10px;
   margin-top: 20px;
+  cursor: pointer;
 }
 .btn-primary {
   border: none;
@@ -158,6 +159,7 @@ nav button:hover {
   background-color: #ff42a5;
   width: 80px;
   height: 40px;
+  cursor: pointer;
 
   color: #fff;
   font-family: Work Sans;
@@ -329,7 +331,6 @@ nav button:hover {
   border-radius: 50%;
 }
 
-
 /* play section style */
 .play {
   width: 100%;
@@ -395,29 +396,29 @@ nav button:hover {
   left: -50px;
 }
 /* footer section style */
-footer{
+footer {
   width: 100%;
   height: 70vh;
-  background-color: #0B0223;
+  background-color: #0b0223;
   text-align: center;
 }
-.logo-footer-container{
+.logo-footer-container {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   /* margin-top: 50px; */
-  padding-top: 40px;
+  padding-top: 70px;
 }
-.logo-img-footer{
+.logo-img-footer {
   width: 50px;
 }
-.logo-title-footer{
+.logo-title-footer {
   color: white;
   font-size: 30px;
 }
-.info-bar{
+.info-bar {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -425,32 +426,48 @@ footer{
   text-align: center;
   margin-top: 40px;
 }
-.info-bar h4{
+.info-bar h4 {
   color: white;
 }
-.info-bar a{
+.info-bar a {
   text-decoration: none;
   color: white;
   font-weight: 600;
-} 
-.adm-bar{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    text-align: center;
-    margin-top: 40px;
+  font-size: 12px;
 }
-.adm-a, .reserve-div p{
+.adm-bar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+.adm-a, .reserve-div p {
   font-size: 12px;
   font-weight: 400;
   text-decoration: none;
   margin-top: px;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
-.reserve-div{
+.reserve-div {
   margin-top: 25px;
 }
 /* .reserve-div p{
   color: rgba(255, 255, 255, 0.60);
 } */
+/* footer icons */
+.icons-container {
+  margin: 30px;
+}
+.icons-container .fa-brands {
+  /* background-color: white; */
+  color: white;
+  margin-right: 20px;
+
+
+  font-size: 30px;
+}
+.footer-youtube {
+  margin-left: 0px;
+}
