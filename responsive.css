@@ -1,0 +1,166 @@
+/* for mobile phone large */
+@media screen and (max-width: 576px) {
+    /* nav bar  */
+    .nav-container{
+      flex-direction: column;
+      padding: 0px;
+      height: 100%;
+      width: 100%;
+      gap: 0px;
+      padding: 0px;
+    }
+    .nav-side{
+      flex-direction: column;
+    }
+    .nav-side a{
+        font-size: 10px;
+    }
+    .nav-side button{
+        padding: 5px 5px;
+    }
+    /* banner */
+    .banner-container{
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .banner-btn{
+        flex-direction: column;
+    }
+    .banner-text-side{
+        left: 0px;
+    }
+    .banner-text{
+        top: 0px;
+        right: 0px;
+    }
+    
+    .banner-text p{
+        font-size: 12px;
+    }
+    .banner-play,.banner-heading{
+        font-size: 15px;
+    }
+    .banner-btn{
+        flex-direction: row;
+    }
+    .btn-primary{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    /* gamer section */
+    .gamer{
+        margin:30px 0px;
+        /* margin-top: 40px; */
+        padding: 0px;
+        /* width: 150px; */
+        height: 60vh;
+    }
+    .gamer-container{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+    }
+    .gamer-title{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 18px;
+
+    }
+    .gamer-description-side{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .gamer-description{
+        text-align: center;
+        width: 200px;
+
+
+    }
+    .unleash-h3{
+        font-size: 12px;
+    }
+    /* videos section */
+    .videos{
+        margin: 100px 0px;
+        padding-top:  100px;
+        padding-left: 20px;
+        /* width: 100%; */
+        height: auto;
+    }
+    .videos-sec-title, .video-sec-description{
+        font-size: 15px;
+        width: 240px;
+        /* text-align: center; */
+    }
+    .card-container{
+        margin: 0px;
+        padding: 20px 50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-img{
+        width: 150px;
+    }
+    .card-description{
+        width: 150px;
+    }
+
+    /* play instantly section */
+    .play{
+        width: 250px;
+        margin-top: 50px;
+        height: 100vh;
+    }
+    .play-description{
+        margin: 0px;
+        padding: 0px;
+        left: 0px;
+        text-align: center;
+        /* border: 2px solid red; */
+        width: 150px;
+        margin-left: 60px;
+
+    }
+    .play-section-title{
+        text-align: center;
+        font-size: 15px;
+        width: 150px;
+    }
+    .play-section-description{
+        width: 150px;
+        font-size: 10px;
+        /* margin-left: 100px; */
+    }
+    .play-img{
+        width: 250px;
+        margin-left: 100px ;
+        
+    }
+    .horse-pic{
+        width: 80%;
+        left: 40px;
+    }
+    .pic-66{
+        width: 40%;
+        top: -80px;
+        left: -40px;
+        position: static;
+
+    }
+
+
+    /* games type */
+    .games-type{
+        margin-top: 500px;
+        flex-wrap:wrap ;
+    }
+    .games-type-card{
+        padding: 0px;
+    }
+  }
