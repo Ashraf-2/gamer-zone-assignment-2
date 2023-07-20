@@ -194,7 +194,6 @@ nav button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 45px 180px;
-
 }
 
 .gamer-img {
@@ -243,8 +242,9 @@ nav button:hover {
 /* videos section */
 .videos {
   width: 100%;
-  height: 100vh;
+  /* height: 80vh; */
   position: relative;
+  /* border: 2px solid blue; */
 }
 .videos-sec-title {
   text-align: center;
@@ -267,6 +267,7 @@ nav button:hover {
   grid-template-columns: repeat(4, 1fr);
   margin: 30px 180px;
   gap: 10px;
+  /* border: 2px solid red; */
 }
 .cards {
   width: 210px;
@@ -285,25 +286,23 @@ nav button:hover {
   text-align: left;
 }
 /* games type section */
-.games-type{
+.games-type {
   width: 100%;
-  height: 60vh;
-  background-color: #FFF9FC;
+  height: 50vh;
+  background-color: #fff9fc;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.games-type-card{
+.games-type-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content:inherit;
+  justify-content: inherit;
   align-items: center;
-  
+
   padding: 0px 120px;
-
 }
-.games-type-btn{
-
+.games-type-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -318,15 +317,79 @@ nav button:hover {
   font-weight: 600;
   color: black;
   cursor: pointer;
-
 }
-.games-type-btn:hover{
+.games-type-btn:hover {
   border: 1px solid #ff42a5;
   color: #ff42a5;
-  
 }
-.games-type-btn img{
+.games-type-btn img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+
+/* play section style */
+.play {
+  width: 100%;
+  height: 80vh;
+  /* border: 2px solid red; */
+  /* padding: 0px 180px; */
+}
+.play-container {
+  /* border: 2px solid green; */
+  /* padding-top: 100px; */
+  /* margin: 0px; */
+  /* padding: 0px; */
+}
+.play-description {
+  text-align: right;
+  position: relative;
+  left: 100px;
+  width: 300px;
+}
+.play-section-title {
+  width: 260px;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.play-section-description {
+  width: 260px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: Work Sans;
+  line-height: 20px;
+}
+.bg-color-play {
+  background: linear-gradient(180deg, #f948b2 40%, #8758f1 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-description {
+  /* width: 50%; */
+  /* height: 100%; */
+  width: 250px;
+  height: 100%;
+  top: -40px;
+  /* border: 2px solid blue; */
+}
+.play-img {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  top: -50px; */
+  position: relative;
+}
+.horse-pic {
+  width: 300px;
+}
+.pic-66 {
+  width: 140px;
+  position: relative;
+  top: -100px;
+  left: -50px;
 }
